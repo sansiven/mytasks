@@ -4,7 +4,7 @@
   "description": "",
   "main": "task1.js",
   "scripts": {
-    "test": "mocha task.test.js"
+    "test": "cd tests && mocha task.test.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "devDependencies": {
     "mocha": "^8.0.1",
     "request": "^2.88.2"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }

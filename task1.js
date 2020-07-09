@@ -56,4 +56,4 @@ const getHash = (someObject) => {
 
 module.exports = {writeToFile, getHash}
 
-main()
+main();
